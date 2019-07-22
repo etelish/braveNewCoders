@@ -1,62 +1,76 @@
 body {
+background-image: url(https://live.staticflickr.com/1849/29409117887_b8cd64b42f_b.jpg);
+background-size: cover;
+background-attachment: fixed;
+color: orange;
 font-family: 'Ubuntu', sans-serif;
-color: black;
+margin: 50px;
 }
-ul {
-    float: right;
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-  }
+
+
+div {
+min-height: 50vh;
+width: 100vw;
+}
+
+h1{
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+
+}
+
+img {
+display: flex;
+padding: 20px;
+margin: 0 auto;
+border-radius: 30px;
+}
+
+p {
+
+width: 40%;
+margin: 10vh 10vw;
+font-size: 2em;
+text-align: centre;
+}
+
+ ul  {
+  margin: 0px;
+  padding:0px;
+  padding-right: 30px;
+  padding-left:  30px;
+  list-style: none;
+}
 
 ul li {
   float: left;
-  width: 150px;
+  width : 200px
   height: 40px;
-  background-color: white;
-  opacity: .8;
+  background-color: black;
+  opacity: .6;
   line-height: 40px;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
+  margin-tight:40px;
+
 }
 
-ul li a {
+ul li a{
   text-decoration: none;
-  color: black;
+  <!-- color: white; -->
+  display: block;
 }
 
 ul li a:hover {
-  color: red;
+
 }
 
-ul li ul li{
-  display: none;
+ul li ul li {
+  display:none;
 }
+
 
 ul li:hover ul li{
-  display:inline;
-}
-
-.logo{
-  float: left;
-  color: black;
-  width: 150px;
-  height: 40px;
-  line-height: 40px;
-  padding-left: 0px;
-  font-size: 20px;
-  font-weight: bold;
-}
-.logo a {
-  text-decoration: none;
-}
-
-.banner {
-  display: block;
-  width: 100%;
-}
-
-.banner .banner-image {
-  display: block;
-  width: 100%;
+  display:block;
 }
