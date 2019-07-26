@@ -61,6 +61,13 @@ ul li:hover ul li{
   width: 100%;
 }
 
+.navbar ul li a.mainlogo {
+  position: absolute;
+  left: 20px;
+  color: black;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 600px){
 
   *{
