@@ -60,3 +60,9 @@ ul li:hover ul li{
   display: block;
   width: 100%;
 }
+
+@media screen and (max-width: 600px){
+
+  *{
+    background-color: pink;
+}
