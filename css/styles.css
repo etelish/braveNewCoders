@@ -1,5 +1,5 @@
 body {
-font-family: 'Ubuntu', sans-serif;
+font-family: 'Lacquer', sans-serif;
 color: black;
 }
 ul {
@@ -14,7 +14,7 @@ ul li {
   width: 150px;
   height: 40px;
   background-color: white;
-  opacity: 1;
+  opacity: .8;
   line-height: 40px;
   text-align: center;
   font-size: 16px;
@@ -44,7 +44,8 @@ ul li:hover ul li{
   height: 40px;
   line-height: 40px;
   padding-left: 0px;
-  font-size: 20px;
+  margin-bottom: 10px;
+  font-size: 25px;
   font-weight: bold;
 }
 .logo a {
@@ -60,59 +61,6 @@ ul li:hover ul li{
   display: block;
   width: 100%;
 }
-
-.w3-content {
-  position:relative;
-  margin-top:0em;
-
-}
-.w3-btn,.w3-button {
-  border:none;
-  display:inline-block;
-  outline:0;
-  padding:8px 16px;
-  vertical-align:middle;
-  overflow:hidden;
-  text-decoration:none;
-  color:inherit;
-  background-color:inherit;
-  text-align:center;
-  cursor:pointer;
-  white-space:nowrap
-}
-
-.w3-btn,.w3-button {
-  -webkit-touch-callout:none;
-  -webkit-user-select:none;
-  -khtml-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none
-}
-
-.w3-disabled,
-.w3-btn:disabled,
-.w3-button:disabled {
-  cursor:not-allowed;opacity:0.3
-}
-
-.w3-disabled *,:disabled * {
-  pointer-events:none
-}
-
-.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
-.w3-button:hover {
-  color:#000!important;
-  background-color:#ccc!important
-}
-
-.w3-content button {
-position: absolute;
-top: 32%;
-}
-
-.w3-display-right {right:0}
-.w3-display-left {left:0}
 
 #login-box
 {
@@ -165,7 +113,7 @@ input[type="submit"]
     margin-bottom: 28px;
     width: 120px;
     height: 32px;
-    background: #f44336;
+    background: black;
     border: none;
     border-radius: 2px;
     color: #fff;
@@ -283,6 +231,7 @@ button.social
 }
 .heading{
   text-align: center;
+  font:"Lacquer";
   font-size: 25px;
   color: black;
   margin: 100px 0 50px 0;
