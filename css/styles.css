@@ -242,4 +242,7 @@ image:hover{
   margin-top: 15px;
   color: red;
 }
+.main-heading, .quote{
+  text-align: center;
+}
 }
