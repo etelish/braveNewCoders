@@ -207,7 +207,7 @@ button.social
   float: left;
 }
 .service 1 p {
-  font-sizeL 14px;
+  font-size: 14px;
   color: #black;
   max-width: 250px;
 }
@@ -244,5 +244,8 @@ image:hover{
 }
 .main-heading, .quote{
   text-align: center;
+}
+a:hover {
+  transition: 0.6s ease;
 }
 }
