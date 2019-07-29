@@ -14,7 +14,7 @@ ul li {
   width: 150px;
   height: 40px;
   background-color: white;
-  opacity: .8;
+  opacity: 1;
   line-height: 40px;
   text-align: center;
   font-size: 16px;
@@ -97,6 +97,7 @@ top: 32%;
 #login-box
 {
     position: relative;
+    bottom: -300px;
     margin: 5% auto;
     height: 400px;
     width: 600px;
@@ -227,4 +228,49 @@ button.social
 .instagram
 {
     background: #833AB4;
+}
+
+.experience1
+{
+  width: 298px;
+  border: 1px solid black;
+  margin: 20px 10px;
+  padding: 0 5px;
+  float: left;
+}
+.service 1 p {
+  font-sizeL 14px;
+  color: #black;
+  max-width: 250px;
+}
+
+.experiences{
+  width: 1333px;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #c1c1c1;
+  color: black;
+  padding: 10px 0;
+  margin: 0 -6px;
+}
+.image {
+  max-width: 200px;
+  margin: 15px 0 0 0;
+}
+.heading{
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  margin: 100px 0 50px 0;
+}
+image:hover{
+  opacity: 0.2;
+  max-width: 200px;
+  margin-top: 15px;
+  color: red;
+}
 }
