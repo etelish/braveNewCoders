@@ -301,13 +301,10 @@ a:hover {
 
 .itinerary p {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
+  padding-top: 15px
 }
 
-.itinerary ul li{
-    height: 40px;
-    margin: 10vh 10vw;
-    font-size: 20px;
-}
+
 
 }
