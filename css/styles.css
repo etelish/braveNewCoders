@@ -39,7 +39,6 @@ ul li:hover ul li{
 
 .logo{
   float: left;
-  color: black;
   width: 150px;
   height: 40px;
   line-height: 40px;
@@ -50,6 +49,7 @@ ul li:hover ul li{
 }
 .logo a {
   text-decoration: none;
+  color: black;
 }
 
 .banner {
@@ -66,7 +66,7 @@ ul li:hover ul li{
 {
     position: relative;
     bottom: -300px;
-    margin: 5% auto;
+    margin: 7% auto;
     height: 400px;
     width: 600px;
     background: #fff;
@@ -200,21 +200,22 @@ button.social
 
 .experience1
 {
-  width: 298px;
-  border: 1px solid black;
+  width: 320px;
+  border: 3px solid black;
   margin: 20px 10px;
-  padding: 0 5px;
+  padding: 10px 10px;
   float: left;
 }
-.service 1 p {
-  font-sizeL 14px;
+.service1 p {
+  font-size: 14px;
   color: #black;
   max-width: 250px;
 }
 
 .experiences{
-  width: 1333px;
+  width: 1500px;
   margin: 0 auto;
+  margin-top: 5%;
 }
 
 .h1 {
@@ -232,7 +233,7 @@ button.social
 .heading{
   text-align: center;
   font:"Lacquer";
-  font-size: 25px;
+  font-size: 55px;
   color: black;
   margin: 100px 0 50px 0;
 }
@@ -242,4 +243,71 @@ image:hover{
   margin-top: 15px;
   color: red;
 }
+.main-heading, .quote{
+  text-align: center;
+  margin top: 20px;
+}
+a:hover {
+  transition: 0.6s ease;
+}
+
+.banner{
+  width: 80%
+  margin: 10% 10% 10% 10%;
+}
+
+.banner img{
+  width: 100%;
+}
+
+.banner-text{
+  width: 100%;
+  position: absolute;
+  margin-top: -25%;
+}
+
+.banner-text h1 {
+  text-align: center;
+  color: white;
+  font-size: 10vw;
+  font-family: 'Lacquer';
+}
+
+.text1
+{
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 700px;
+  margin: 20px 10px;
+  padding: 0 5px;
+  float: none;
+}
+.text2
+{
+  width: 900px;
+  margin: 20px 10px;
+  padding: 0 5px;
+  float: none;
+}
+.quote {
+  font-size: 35px;
+}
+.highlight{
+  font-weight: bold;
+}
+.text1,.quote,.highlight p p {
+  font-size: 20px;
+}
+
+.itinerary p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.itinerary ul li{
+    height: 40px;
+    margin: 10vh 10vw;
+    font-size: 20px;
+}
+
 }
